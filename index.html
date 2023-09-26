@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <title>donghwik</title>
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/respond.min.js"></script>
+
+    <!-- Progress bar -->
+    <script src="js/progressbar.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.min.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="js/swiper/swiper.css">
+    <script src="js/swiper/swiper.min.js"></script>
+    <!-- chart js -->
+    <script src="js/chart/chart.js"></script>
+    <script src="js/Chart.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- AOS -->
+    <link href="js/aos/aos.css" rel="stylesheet">
+    <script src="js/aos/aos.js"></script>
+    <!-- style.css -->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+    <div class="wrap">
+        <!-- 상단영역 -->
+        <header class="header">
+            <div class="container">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+                <div class="visual">
+                </div>
+                <nav class="nav">
+                    <ul class="gnb">
+                        <li><a href="#home">home</a></li>
+                        <li><a href="#about">about</a></li>
+                        <li><a href="#skill">skill</a></li>
+                        <li><a href="#possibility">possibility</a></li>
+                        <li><a href="#portfolio">portfolio</a></li>
+                        <li><a href="#life">life</a></li>
+                    </ul>
+                </nav>
+                <!-- 햄버거 -->
+                <!-- <input class="burger-check" type="checkbox" id="burger-check" /><label class="burger-icon"
+                    for="burger-check"><span class="burger-sticks"></span></label>
+                <div class="menu">
+                    <div style="width: 200px;">
+                        <ul class="gnb">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">kang</a></li>
+                            <li><a href="#">skill</a></li>
+                            <li><a href="#">possibility</a></li>
+                            <li><a href="#">life</a></li>
+                            <li><a href="#">portfolio</a></li>
+                        </ul>
+                    </div>
+                </div> -->
+            </div>
+        </header>
+        <!-- 메인영역 -->
+        <div class="main">
+            <!-- go top -->
+            <p id="go-top">
+                <a href="#top">
+                    <span></span>
+                    TOP
+                </a>
+            </p>
+            <!-- home -->
+            <section class="home" id="home">
+                <div class="container">
+                    <div class="text-box">
+                        <span class="text"></span>
+                        <span class="text2">
+                            less is<br>
+                            more.
+                        </span>
+                    </div>
+                    <div class="sns">
+                        <a href="https://www.instagram.com/paandeso_/" target="_blank">
+                            <img src="images/insta_icon.png" alt="이미지">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100004597205263" target="_blank">
+                            <img src="images/facebook_icon.png" alt="이미지">
+                        </a>
+                        <a href="https://open.kakao.com/o/sX159Ahe" target="_blank">
+                            <img src="images/kakao_icon.png" alt="이미지">
+                        </a>
+                        <a href="https://github.com/kdh9585" target="_blank">
+                            <img src="images/address_logo.png" alt="이미지">
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- about me -->
+            <section class="about" id="about">
+                <div class="container clearfix">
+                    <div class="kang-left" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <div class="kang-dong">
+                            <img src="images/kang.jpg" alt="사진">
+                        </div>
+                        <div class="kang-icon">
+                            <i class="fas fa-map"></i>Korea, Daegu
+                        </div>
+                        <div class="kang-icon">
+                            <i class="fas fa-phone-volume"></i>5365.2494
+                        </div>
+                        <div class="kang-icon">
+                            <i class="fas fa-paper-plane"></i>hwik95@naver.com
+                        </div>
+                        <div class="kang-icon">
+                            <i class="fab fa-github"></i>hwik95
+                        </div>
+                        <div class="kang-cate">
+                            <span>
+                                "안녕하세요 예술적 가치를 <br>
+                                전달하는 기획자 강동휘 입니다."
+                            </span>
+                        </div>
+                    </div>
+                    <div class="kang-right" data-aos="fade-left" data-aos-offset="200" data-aos-easing="ease-in-sine">
+                        <div class="kang-title">
+                            <span>Front-end</span>
+                            Kang Dong Hwik
+                        </div>
+                        <div class="kang-txt">
+                            <span class="txt-hello">안녕하세요:) <br>
+                                새로운 것을
+                                두려워하지 않고
+                                끊임없이 탐구하며 발전하는
+                                서비스 기획자  강동휘입니다.</span>
+                            <br>
+                            <br>
+                            <p>더 나은 결과물이 나올 수 있도록
+                                끊임없이 고민하고
+                                어려운 일이 있어도
+                                현실에 안주하지 않습니다.<br>
+                                계속되는 도전 속에서 오는 수많은 위기와
+                                어려움을 포기하지 않고
+                                최선을 다해 발전하겠습니다.<br>
+                                늘 배우고 탐구하는 자세로 노력하는 기획자가 되겠습니다.
+                            </p>
+                        </div>
+                        <div class="kang-school">
+                            <div class="kang-h4">
+                                <span>
+                                    Education
+                                </span>
+                                <h3>
+                                    그린컴퓨터학원<br>
+                                    PWA수료<br>
+                                    <br>
+                                    대코캠(코드잇4기)수료<br>
+                                    <br>
+                                    대구가톨릭대학교 졸업<br>
+                                    사회학 전공<br>
+                                    <br>
+                                    유튜브크리에이터전문가<br>
+                                    양성과정 수료<br>
+                                </h3>
+                            </div>
+                            <div class="kang-h4">
+                                <span>
+                                    License
+                                </span>
+                                <h3>
+                                    GTQ 포토샵1급<br>
+                                    2021.02<br>
+                                    <br>
+                                    컴퓨터활용능력2급<br>
+                                    2021.12<br>
+                                    <br>
+                                    운전면혀증1종<br>
+                                    2014.03
+                                </h3>
+                            </div>
+                            <div class="kang-h4">
+                                <span>
+                                    Experince
+                                </span>
+                                <h3>
+                                    양문이식당-요식업<br>
+                                    2019.01~2021.05<br>
+                                    <br>
+                                    (주)한스-행사기획<br>
+                                    2018.06 ~2018.12<br>
+                                    <br>
+                                    에이치팀-문화기획<br>
+                                    2017.07 ~ 2018.03
+                                </h3>
+                            </div>
+                            <div class="kang-h4">
+                                <span>
+                                    My Activity
+                                </span>
+                                <h3>
+                                    시쓰기<br>
+                                    관련계정&puncsp; <a href="https://www.instagram.com/_xanax_emotion/" target="_blank"><i
+                                            class="fas fa-pen"></i></a><br>
+                                    <br>
+                                    유튜브 촬영<br>
+                                    관련계정&puncsp;&puncsp;<a
+                                        href="https://www.youtube.com/watch?v=b79flA0HotA&list=PLTuuo0G7FZW2OefSHQYBlrTvX6Bx13uuL&index=27"
+                                        target="_blank"><i class="fab fa-youtube"></i></a><br>
+                                    <br>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <!-- skill -->
+            <section class="skill" id="skill">
+                <div class="container">
+                    <div class="section-box skill-head">
+                        <h2 class="">skills</h2>
+                    </div>
+                    <div class="skill-box" data-aos="fade-up" data-aos-duration="2000">
+                        <div id="circle1"></div>
+                        <div id="circle2"></div>
+                        <div id="circle3"></div>
+                        <div id="circle4"></div>
+                        <div id="circle5"></div>
+                        <div id="circle6"></div>
+                        <div id="circle7"></div>
+                        <div id="circle8"></div>
+                        <div id="circle9"></div>
+                        <div id="circle10"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- ps -->
+            <section class="possibility" id="possibility">
+                <div class="container">
+                    <div class="section-box">
+                        <h2>possibility</h2>
+                    </div>
+                    <div class="poss-box" data-aos="zoom-in-down" data-aos-duration="2000">
+                        <h3 class="poss-cate">소통능력</h3>
+                        <p class="poss-txt">팀원들과 협력하면서 유연한 사고를 가지는 기획자 되겠습니다.</p>
+                        <h3 class="poss-cate">창의성</h3>
+                        <p class="poss-txt">가독성이 좋은 코드를 구현 하고 새로운 기술을 끊임 없이 고민하고 시도할 것입니다.</p>
+                        <h3 class="poss-cate">도전정신</h3>
+                        <p class="poss-txt">새로운 것을 알아가는 것에 흥미를 느끼는 기획자 되겠습니다.</p>
+                        <h3 class="poss-cate">열정과 적극성</h3>
+                        <p class="poss-txt">프로젝트 기한 성공에 안주하지 않고 새로운 것을 시도하려는 자세를 가지겠습니다.</p>
+                        <h3 class="poss-cate">실무역량</h3>
+                        <p class="poss-txt">개인적인 성과가 아닌 공동의 목표를 추구하는 서비스 기획자 되겠습니다.</p>
+                    </div>
+                    <div class="chart">
+                        <canvas id="chart" data-aos="zoom-in-left" data-aos-duration="2000"></canvas>
+                    </div>
+                </div>
+            </section>
+            <!-- portfolio -->
+            <section class="portfolio" id="portfolio">
+                <div class="container">
+                    <div class="section-box portfolio">
+                        <h2>portfolio</h2>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top"><a href="https://kdh9585.github.io/hansolpape/" target="_blank"">
+                            <img src=" images/hansolpaper.jpg" alt="hansolpaper-clone"></a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>한솔제지</h3>
+                            <span>한솔제지 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/hansolpape" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/hansolpape/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br />
+                                <br />
+                                <a href="https://www.hansolpaper.co.kr/main" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>2일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/solaseado/" target="_blank">
+                                <img src="images/solaseado.jpg" alt="solaseado-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <button class="pt-work2">Loading..</button>
+                            <h3>솔라시도</h3>
+                            <span>솔라시도 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/solaseado" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/solaseado/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br />
+                                <br />
+                                <a href="https://www.solaseado.com/bluecity/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>3일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/stxconst/" target="_blank">
+                                <img src="images/stx.jpg" alt="stx-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>stx</h3>
+                            <span>stx 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/stxconst" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/stxconst/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="http://www.stxconst.co.kr/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>2일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/stx-vue/" target="_blank">
+                                <img src="images/stx.jpg" alt="stx-vue">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <button class="pt-work3">Vue</button>
+                            <h3>stx-vue</h3>
+                            <span>stx 웹사이트 vue버전</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/stx-vue" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/stx-vue/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="http://www.stxconst.co.kr/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>2일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://greenjuice.pulmuone.com/" target="_blank">
+                                <img src="images/greenjuice.jpg" alt="greenjuice-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>풀무원녹즙</h3>
+                            <span>풀무원녹즙 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/greenjuice" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href=" https://kdh9585.github.io/greenjuice/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="https://greenjuice.pulmuone.com/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>3일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/hanslim/" target="_blank">
+                                <img src="images/hansilme.jpg" alt="hansilme-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>한살림장보기</h3>
+                            <span>한살림장보기 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/hanslim" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/hanslim/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="https://shop.hansalim.or.kr/shopping/spMain.do" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>4일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/klia/" target="_blank">
+                                <img src="images/killa.jpg" alt="killa-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>생명보험협회</h3>
+                            <span>생명보험협회 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/klia" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/klia/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="https://www.klia.or.kr/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>11일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/pnuh/" target="_blank">
+                                <img src="images/pnuh.jpg" alt="pnuh-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>부산대학교병원</h3>
+                            <span>부산대학교병원 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/pnuh" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/pnuh/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="https://www.pnuh.or.kr/pnuh/main/main.do?rbsIdx=1#none" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>9일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/sancheong/" target="_blank">
+                                <img src="images/sancheong.jpg" alt="sancheong-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>산청군청</h3>
+                            <span>산청군청 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/sancheong" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/sancheong/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="https://www.sancheong.go.kr/www/index.do" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>12일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://kdh9585.github.io/masigray/" target="_blank">
+                                <img src="images/masigray.jpg" alt="masigray-clone">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <button class="pt-work2">responsive</button>
+                            <h3>마시그레이</h3>
+                            <span>마시그레이 웹사이트 클론코딩</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/masigray" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/masigray/" target="_blank">
+                                    <i class="fas fa-clone"></i>clone
+                                </a>
+                                <br>
+                                <br>
+                                <a href="https://www.masigray.com:5021/main/main.asp" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>5일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <a href="https://github.com/kdh9585/paandeso_php" target="_blank">
+                                <img src="images/paandeso_php.jpg" alt="php">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work3">Vue</button>
+                            <button class="pt-work4">php</button>
+                            <h3>TODO-LIST</h3>
+                            <span>vue project, php 연동</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/paandeso_php" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/paandeso_php/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <br>
+                                <br>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>7일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <i class="fa-solid fa-bookmark"></i>
+                            <a href="https://kdh9585.github.io/protfolio/" target="_blank">
+                                <img src="images/protfolio.jpg" alt="protfolio">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>개인포트폴리오</h3>
+                            <span>개인포트폴리오 제작</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/protfolio" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/protfolio/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <br>
+                                <br>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>15일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-box">
+                        <div class="pt-top">
+                            <i class="fas fa-bookmark"></i>
+                            <a href="https://kdh9585.github.io/protfolio/" target="_blank">
+                                <img src="images/protfolio.jpg" alt="protfolio">
+                            </a>
+                        </div>
+                        <div class="pt-cate">
+                            <button class="pt-work">Website</button>
+                            <h3>개인포트폴리오</h3>
+                            <span>개인포트폴리오 제작</span>
+                            <div class="pt-bottom">
+                                <a href="https://github.com/kdh9585/protfolio" target="_blank">
+                                    <i class="fab fa-github"></i>Github
+                                </a>
+                                <a href="https://kdh9585.github.io/protfolio/" target="_blank">
+                                    <i class="fas fa-columns"></i>origin
+                                </a>
+                                <br>
+                                <br>
+                                <a href="#">
+                                    <i class="fas fa-calendar-check"></i>15일
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- life -->
+            <section class="life" id="life">
+                <div class="container">
+                    <div class="section-box">
+                        <h2>life</h2>
+                    </div>
+                    <div class="item-wrap">
+
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/body.jpg">
+                            <div class="caption">body profile</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/uinveristy.jpg">
+                            <div class="caption">university</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/cultural_life.jpg">
+                            <div class="caption">cultural Life</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/travel.jpg">
+                            <div class="caption">travel</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/writing_poetry.jpg">
+                            <div class="caption">writing poetry</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/study.jpg">
+                            <div class="caption">study</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/youtube.jpg">
+                            <div class="caption">youtube</div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="polaroid"><img src="images/work.jpg">
+                            <div class="caption">work</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- 하단 contact -->
+        <div class="contact">
+            <div class="container">
+                <a href="index.html">
+                    <img src="images/footer_logo.png" alt="하단로고">
+                </a>
+                <div class="footer-icon">
+                    <a href="https://github.com/kdh9585" target="_blank">
+                        <i class="fab fa-github">
+                        </i>
+                    </a>
+                    <a href="mailto:hwk95@naver.con" target="_blank">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://open.kakao.com/o/sX159Ahe" target="_blank">
+                        <i class="fas fa-comment"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="f-copy">
+                <h4>
+                    Copyright 2022. KANGDONGHWIK All rights reserved.
+                </h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
