@@ -105,7 +105,7 @@ $(document).ready(function () {
     strokeWidth: 6,
     easing: "easeInOut",
     duration: 1400,
-    color: "#000",
+    color: "#d04424",
     trailColor: "#eee",
     trailWidth: 1,
     svgStyle: null,
@@ -114,7 +114,7 @@ $(document).ready(function () {
     strokeWidth: 6,
     easing: "easeInOut",
     duration: 1400,
-    color: "#41b883",
+    color: "#207245",
     trailColor: "#eee",
     trailWidth: 1,
     svgStyle: null,
@@ -123,7 +123,7 @@ $(document).ready(function () {
     strokeWidth: 6,
     easing: "easeInOut",
     duration: 1400,
-    color: "#000000",
+    color: "#f24e1e",
     trailColor: "#eee",
     trailWidth: 1,
     svgStyle: null,
@@ -159,7 +159,7 @@ $(document).ready(function () {
     strokeWidth: 6,
     easing: "easeInOut",
     duration: 1400,
-    color: "#cc6699",
+    color: "#2b2b2b",
     trailColor: "#eee",
     trailWidth: 1,
     svgStyle: null,
@@ -169,12 +169,12 @@ $(document).ready(function () {
   bar2.animate(0.85); // Number from 0.0 to 1.0
   bar3.animate(0.8); // Number from 0.0 to 1.0
   bar4.animate(0.7); // Number from 0.0 to 1.0
-  bar5.animate(0.5); // Number from 0.0 to 1.0
-  bar6.animate(0.6); // Number from 0.0 to 1.0
+  bar5.animate(0.7); // Number from 0.0 to 1.0
+  bar6.animate(0.8); // Number from 0.0 to 1.0
   bar7.animate(0.6); // Number from 0.0 to 1.0
   bar8.animate(0.9); // Number from 0.0 to 1.0
-  bar9.animate(0.9); // Number from 0.0 to 1.0
-  bar10.animate(0.9); // Number from 0.0 to 1.0
+  bar9.animate(0.7); // Number from 0.0 to 1.0
+  bar10.animate(0.5); // Number from 0.0 to 1.0
 
   // swiper
   let swiper = new Swiper(".mySwiper", {
