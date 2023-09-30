@@ -66,7 +66,11 @@ body {
   font-size: 40px;
   text-transform: capitalize;
 }
-
+.section-box > h3 {
+  position: relative;
+  display: block;
+  margin-top: 20px;
+}
 .skill-txt {
   position: relative;
   display: block;
